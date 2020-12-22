@@ -1,7 +1,11 @@
 # Docker for Zerotier
-There not offical docker image for zerotier.
 
-The Dockerfile modified from https://github.com/zerotier/ZeroTierOne/blob/master/ext/installfiles/linux/zerotier-containerized/Dockerfile
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/isayme/zerotier?sort=semver)
+![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/isayme/zerotier?sort=semver)
+
+There no offical docker image for zerotier.
+
+This Dockerfile modified from https://github.com/zerotier/ZeroTierOne/blob/master/ext/installfiles/linux/zerotier-containerized/Dockerfile
 
 # How to use
 

@@ -1,7 +1,8 @@
 # Docker for Zerotier
 
-![Docker Image Version (latest semver)](https://img.shields.io/docker/v/isayme/zerotier?sort=semver)
-![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/isayme/zerotier?sort=semver)
+[![Docker Image Version (latest semver)](https://img.shields.io/docker/v/isayme/zerotier?sort=semver&style=flat-square)](https://hub.docker.com/r/isayme/zerotier)
+![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/isayme/zerotier?sort=semver&style=flat-square)
+![Docker Pulls](https://img.shields.io/docker/pulls/isayme/zerotier?style=flat-square)
 
 There no offical docker image for zerotier.
 

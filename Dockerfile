@@ -5,7 +5,7 @@ ENV ZEROTIER_VERSION=${ZEROTIER_VERSION}
 RUN echo ${ZEROTIER_VERSION}
 
 RUN apt-get update && apt-get install -y curl gnupg
-RUN apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 0x1657198823e52a61  && \
+RUN apt-key adv --keyserver keys.openpgp.org --recv-keys 0x1657198823e52a61  && \
     echo "deb http://download.zerotier.com/debian/buster buster main" > /etc/apt/sources.list.d/zerotier.list
 RUN apt-get update && apt-get install -y zerotier-one=${ZEROTIER_VERSION}
 COPY ./main.sh /var/lib/zerotier-one/main.sh

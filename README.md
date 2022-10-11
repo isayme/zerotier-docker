@@ -1,3 +1,5 @@
+# Deprecated: Use Official Image https://hub.docker.com/r/zerotier/zerotier
+
 # Docker for Zerotier
 
 [![Docker Image Version (latest semver)](https://img.shields.io/docker/v/isayme/zerotier?sort=semver&style=flat-square)](https://hub.docker.com/r/isayme/zerotier)
